@@ -1,0 +1,31 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootswatch/dist/litera/bootstrap.min.css";
+
+:root {
+    --cor-primaria: blue;
+    --cor-secundaria: rgb(46, 46, 46);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.btn-outline-primary,
+.btn-primary {
+    min-width: 90px;
+    margin-right: 2px;
+}
+
+.btn.btn-primary{
+    background-color: var(--cor-primaria);
+}
